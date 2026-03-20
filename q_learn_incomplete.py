@@ -64,6 +64,13 @@ def train():
             if len(memory) > BATCH_SIZE:
                 # WRITE CODE HERE:
                 print("I do nothing.... for now")
+
+
+
+
+
+
+                #End of code
             if done: break
 
         epsilon = max(EPS_END, epsilon * EPS_DECAY)
